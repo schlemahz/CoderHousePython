@@ -9,9 +9,9 @@ Este projeto consiste na extração, transformação e análise de dados usando 
 
 ## Configuração do Ambiente
 1. Clone o repositório:
-   git clone <URL do repositório>
+   git clone <URLdorepositório>
    
-   cd <pasta do projeto>
+   cd <pastadoprojeto>
 
 3. Crie e ative o ambiente virtual:
 
