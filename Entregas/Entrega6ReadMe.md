@@ -17,6 +17,7 @@ Este projeto consiste na extração, transformação e análise de dados usando 
 
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
+
 venv\Scripts\activate  # Windows
 
 3. Instale as dependências:
