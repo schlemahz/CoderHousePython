@@ -121,9 +121,30 @@ O banco de dados gerado é salvo localmente no arquivo `dados_tratados.db`, que 
 
 **Consulta**: Listar todos os países de um determinado continente.  
 **SQL**: 
-```sql
 SELECT country FROM continentes WHERE continent = 'Asia';
 
+Resultado:
+country       | continent
+------------- | ---------
+Taiwan        | Asia
+Indonesia     | Asia
+Laos          | Asia
+China         | Asia
+Yemen         | Asia
+Uzbekistan    | Asia
+Sri Lanka     | Asia
+Palestine     | Asia
+Bangladesh    | Asia
+Singapore     | Asia
+Turkey        | Asia
+Afghanistan   | Asia
+Azerbaijan    | Asia
+
+**Consulta Alternativa**: Verificar as moedas dos países na Europa.
+**SQL**: 
+SELECT country, currency FROM moedas WHERE country IN (
+    SELECT country FROM continentes WHERE continent = 'Europe'
+);
 
 
 ## 9. Versionamento
