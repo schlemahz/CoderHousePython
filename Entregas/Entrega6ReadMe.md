@@ -9,15 +9,13 @@ Este projeto consiste na extração, transformação e análise de dados usando 
 
 ## Configuração do Ambiente
 1. Clone o repositório:
-   git clone URLdorepositório
-   
-   cd pastadoprojeto
+   git clone <URL do repositório>
+   cd <pasta do projeto>
 
-3. Crie e ative o ambiente virtual:
+2. Crie e ative o ambiente virtual:
 
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-
 venv\Scripts\activate  # Windows
 
 3. Instale as dependências:
