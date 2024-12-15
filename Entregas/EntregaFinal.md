@@ -156,7 +156,7 @@ plyer==2.0.0
 
 
 ## 10. Referências
-Rest Countries API: [https://restcountries.com/](https://restcountries.com/)
-Documentação do Pandas: [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
-SQLite Documentation: [https://www.sqlite.org/docs.html](https://www.sqlite.org/docs.html)
-Plyer Documentation: [https://plyer.readthedocs.io/en/latest/](https://plyer.readthedocs.io/en/latest/)
+Rest Countries API: [https://restcountries.com/](https://restcountries.com/)  
+Documentação do Pandas: [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)  
+SQLite Documentation: [https://www.sqlite.org/docs.html](https://www.sqlite.org/docs.html)  
+Plyer Documentation: [https://plyer.readthedocs.io/en/latest/](https://plyer.readthedocs.io/en/latest/)  
