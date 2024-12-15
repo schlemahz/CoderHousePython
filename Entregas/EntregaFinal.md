@@ -140,8 +140,8 @@ Turkey        | Asia
 Afghanistan   | Asia
 Azerbaijan    | Asia
 
-**Consulta Alternativa**: Verificar as moedas dos países na Europa.
-**SQL**: 
+**Consulta Alternativa**: Verificar as moedas dos países na Europa.  
+**SQL**:  
 SELECT country, currency FROM moedas WHERE country IN (
     SELECT country FROM continentes WHERE continent = 'Europe'
 );
