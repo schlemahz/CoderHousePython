@@ -148,11 +148,11 @@ SELECT country, currency FROM moedas WHERE country IN (
 
 
 ## 9. Versionamento
-As dependências do projeto estão descritas no arquivo requirements.txt:
-pandas==1.5.0
-requests==2.28.0
-sqlite3==3.36.0
-plyer==2.0.0
+As dependências do projeto estão descritas no arquivo requirements.txt:  
+pandas==1.5.0  
+requests==2.28.0  
+sqlite3==3.36.0  
+plyer==2.0.0  
 
 
 ## 10. Referências
